@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+p {
+    height: 2vh;
+    color: #F7EAEB;
+    margin-left: 135px;
+    font-family: "Quantico", sans-serif;
+    font-size: 0.7em;
+  }
+
+h1 {
+    text-align: center;
+    height: 5vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-family: "Quantico", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    height: 5vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-family: "Quantico", sans-serif;
+}
+
+.form {
+    height: 43vh;
+    margin-left: 27px;
+    color: #525150;
+    font-family: "Quantico", sans-serif;
+    
+}
+
+.inputName {
+    padding: 7px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 54px;
+    color: #525150;
+    
+    
+}
+
+.inputEmail {
+    padding: 7px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 50px;
+    color: #525150;
+    
+}
+
+.inputWebsite {
+    padding: 7px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 34px;
+    color: #525150;
+    
+}
+
+.inputArea {
+    padding: 7px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 26px;
+    color: #525150;
+    
+}
+
+.rad {
+    border-radius: 5px;
+    border: none;
+    margin-left: 50px;
+}
+
+.star {
+    margin-left: 5px;
+}
+
+body {
+    background: rgb(211, 210, 210);
+}
+
+.card {
+  display: flex;
+  justify-content:space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(41, 134, 240, 0.603);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  float: center; 
+  margin-bottom: 10px;
+  background-color: #29BEE8;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(41, 134, 240, 0.603);
+}
+
+.container {
+  padding: 2px 16px;
+  color: #29BEE8;
+}
+
+  .button {
+    background-color: #5A5D5E;
+    border-radius: 5px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #525150;
+    color: white;
+    padding: 10px 30px;
+    font-family: "Quantico", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+::placeholder {
+  color: #29BEE8;
+  opacity: 1;
+  font-family: "Quantico", sans-serif;
+}
+
+img {
+  float: right;
+  z-index: -1;
+  opacity: 0.5;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%
+} 
